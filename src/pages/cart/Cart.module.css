@@ -1,0 +1,33 @@
+.cart{
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+    /* padding: 128px; */
+
+}
+.cart .card{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.cart .card img{
+    width: 150px;
+    height: 150px;
+    border-right: 2px solid black;
+}
+.cart .card .quantity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cart .card .quantity button{
+ width: 50px;
+ height: 20px;
+ background-color: #6fe46f;
+ border: none;
+}
+.cart .total{
+    text-align: right;
+    border-top: 1px solid black;
+}

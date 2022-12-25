@@ -1,0 +1,15 @@
+.css-heg063-MuiTabs-flexContainer {
+    justify-content: space-between !important ;
+
+}
+
+.MuiButtonBase-root {
+    position: relative;
+}
+.length{
+    position: absolute;
+    font-size: 30px;
+    top:0;
+    left: 0;
+    color: red;
+}
